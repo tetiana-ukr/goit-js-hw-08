@@ -22,6 +22,7 @@ const galleryList = galleryItems.map((image) => `<li class="gallery__item">
 </li>`).join('');
 
 // додаю створений елемент на сторінку всередині elem, після усіх дітей
+
 galleryConteiner.insertAdjacentHTML('beforeend', galleryList);
 
 
